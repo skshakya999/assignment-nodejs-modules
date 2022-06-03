@@ -61,7 +61,8 @@ router.get('films/:filmId', function(req,res){
        let fIndex = req.params.filmId
        console.log(fIndex)
        if(fIndex<filmLen){
-           res.send(films[fIndex])
+           let selectedFilm =films[fIndex]
+           res.send(selectedFilm)
        }
        else{
            res.send("Please enter a valid index number")
