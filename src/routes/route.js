@@ -8,7 +8,7 @@ const router = express.Router();
 
 router.get('/movies', function(req, res){
     
-    let movies = ['Pushpa','bahubali','Roohi','Saina','Bell Bottom','Bhavai',"skkk"]
+    let movies = ['Pushpa','bahubali','Roohi','Saina','Bell Bottom','Bhavai',"skkk",'fgdfg']
     res.send(movies)
 })
 
